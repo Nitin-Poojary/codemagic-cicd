@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Material App',
+      title: 'Codemagic CI/CD Tutorial',
       home: Scaffold(
         appBar: AppBar(title: const Text('Material App Bar')),
         body: Center(child: Text('Running on ${Env.envName} environment')),
